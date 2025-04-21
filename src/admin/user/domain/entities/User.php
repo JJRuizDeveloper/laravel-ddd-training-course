@@ -27,4 +27,9 @@ class User
     {
         return $this->email;
     }
+
+    public function id(): int
+    {
+        return $this->id;
+    }
 }
